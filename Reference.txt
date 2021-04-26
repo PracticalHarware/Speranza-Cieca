@@ -1,0 +1,10 @@
+These are the few refences we have used to make this repository.
+
+For the Speech Recognition:
+https://www.youtube.com/watch?v=x8xjj6cR9Nc&t=180s
+
+For the Hand tracking:
+https://www.youtube.com/watch?v=NZde8Xt78Iw
+https://www.youtube.com/watch?v=9iEPzbG-xLE
+
+Thanking all the people who have helped us in making this project. 
