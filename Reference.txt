@@ -7,4 +7,7 @@ For the Hand tracking:
 https://www.youtube.com/watch?v=NZde8Xt78Iw
 https://www.youtube.com/watch?v=9iEPzbG-xLE
 
+For OpenCV and IoT:
+https://www.udemy.com/course/machine-learning-opencv-based-iot-using-raspberry-pi/
+
 Thanking all the people who have helped us in making this project. 
