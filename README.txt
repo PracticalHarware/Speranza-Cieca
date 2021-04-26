@@ -1,5 +1,7 @@
 # Speranza-Cieca
 
+You can use the Batch files given too
+
 #Setup On Raspberry Pi
 
 STEP 1:-
