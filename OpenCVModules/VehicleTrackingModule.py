@@ -5,7 +5,7 @@ import threading
 import math
 
 carCascade = cv2.CascadeClassifier('haarCode.xml')
-video = cv2.VideoCapture('CarsDoubleRoad.mp4')
+video = cv2.VideoCapture('cars.mp4')
 
 WIDTH = 1280
 HEIGHT = 720
