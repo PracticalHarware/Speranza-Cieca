@@ -1,0 +1,22 @@
+If you are planning to use the code you will need these libraries:
+
+1. OpenCv:
+pip install opencv-python
+
+2. Dlib:
+pip install dlib
+
+3. Mediapipe:
+pip install mediapipe
+
+4. Speech Recognition:
+pip install SpeechRecognition
+pip install PyAudio
+
+5. Google Text-to-Speech:
+pip intall gTTS
+pip install playsound
+if using mac then also do: pip install PyObjC
+
+6. Python Core Audio Windows Library(for volume control):
+pip install pycaw
