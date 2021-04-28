@@ -1,6 +1,3 @@
-# Example of using the MQTT client class to subscribe to a feed and print out
-# any changes made to the feed.  Edit the variables below to configure the key,
-# username, and feed to subscribe to for changes.
 
 # Import standard python modules.
 import sys
