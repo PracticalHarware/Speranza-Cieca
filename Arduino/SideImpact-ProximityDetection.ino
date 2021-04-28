@@ -2,12 +2,13 @@ int TriggerPIN1 = 9;
 int EchoPIN1 = 10;
 int TriggerPIN2 = 5;
 int EchoPIN2 = 4;
-
+int buzzerPin = 8;
 void setup(){
   pinMode(TriggerPIN1,OUTPUT);
   pinMode(EchoPIN2,INPUT);
   pinMode(TriggerPIN2,OUTPUT);
   pinMode(EchoPIN2,INPUT);
+  pinMode (buzzerPin, OUTPUT);
   Serial.begin(9600); 
   }
 
@@ -23,6 +24,12 @@ void loop(){
 
   Serial.print("Sensor 1 : ");
   Serial.println(distance1);
+  if (distance1 <20) {
+    digitalWrite (buzzerPin, HIGH);
+   delay (200);
+   digitalWrite (buzzerPin, LOW);
+   delay (200);
+  }
 
   delayMicroseconds(2);
 
@@ -37,4 +44,9 @@ void loop(){
 
   Serial.print("Sensor 2 : ");
   Serial.println(distance2);
-  }
+    if (distance2 <20) {
+      digitalWrite (buzzerPin, HIGH);
+     delay (200);
+     digitalWrite (buzzerPin, LOW);
+     delay (200);
+    }
