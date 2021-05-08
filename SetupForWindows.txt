@@ -20,3 +20,9 @@ if using mac then also do: pip install PyObjC
 
 6. Python Core Audio Windows Library(for volume control):
 pip install pycaw
+
+7. EasyOCR (for Read Text from Camera):
+you will need pytorch too, so go to there website and pip install the one suitable to ur system
+https://pytorch.org/
+Next
+pip install easyocr
