@@ -1,9 +1,10 @@
-
 import easyocr
 import cv2
 import random
 import time
 import os
+
+import SpeechAndAudioModule as SAM;
 
 def scan_read():
 
@@ -29,7 +30,7 @@ def scan_read():
         
         for detection in result:
             text = detection[1]
-            print(text);
+            SAM.speak(text);
             
         os.remove(img_name);
             
