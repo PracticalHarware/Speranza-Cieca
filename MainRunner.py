@@ -11,6 +11,8 @@ from gtts import gTTS
 
 import VolumeControlModule as VCM;
 import PeopleRecognitionModule as PRM;
+import VehicleTracking as VT;
+import EasyOCRSnapShot as EOCR;
 
 def speak(audio_string):
     tts = gTTS(text = audio_string, lang = 'en');
@@ -67,6 +69,10 @@ def respond(voice_data):
     if 'recognize people' in voice_data:
         PRM.peopleRecognition();
         speak('Done with people recognition');
+    if 'detect cars around me' in voice_data:
+        VT.trackMultipleObjects()
+    if 'read for me' in voice_data:
+        EOCR.scan_read();
     if 'exit' in voice_data:
         exit();
 
@@ -76,3 +82,4 @@ while True:
     voice_data = record_audio();
     speak(voice_data)
     respond(voice_data);
+
