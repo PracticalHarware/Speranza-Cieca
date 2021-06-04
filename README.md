@@ -17,6 +17,12 @@
 <p align="center">
     <img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white">
 </p>
+
+# Hardware Used
+<p align="center">
+ <img alt="Raspberry Pi" src="https://img.shields.io/badge/RASPBERRY%20PI-C51A4A.svg?&style=for-the-badge&logo=raspberry%20pi&logoColor=white">
+ <img alt="Arduino" src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white">
+</p>
     
 # Setup On Raspberry Pi (You can use the Batch files given too)
 
