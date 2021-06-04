@@ -1,8 +1,24 @@
 # Speranza-Cieca
+![banner](https://github.com/PracticalHarware/Website/blob/main/Moody%20Mountains%20-%20Canva%20Banner.gif)
+# Languages:
+<p align="center">
+    <img alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+    <img alt="Shell Script" src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">
+    
+</p>
 
-You can use the Batch files given too
+# Frameworks
+<p align="center">
+    <img alt="OpenCv" src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white">
+</p>
 
-#Setup On Raspberry Pi
+# Operating System
+<p align="center">
+    <img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white">
+</p>
+    
+# Setup On Raspberry Pi (You can use the Batch files given too)
 
 ## STEP 1:-
 
@@ -96,7 +112,7 @@ You can use the Batch files given too
               OR 
         a. $ make -j4 
 
-    ###### Note:  
+    Note:  
         1.	Either one of the above to be executed. The make -j4 would be using 4 cores, but prone to race condition / hang. The advantage could be faster completion. 
         2.	Just make alone, may take about 4~5 hours to complete 
 
@@ -126,6 +142,6 @@ Note: In some installation it would be as dist-packages. If its distpackages, re
           >>> 
 
 ### Caution note :  
-Don’t forget to change your swap size back! 
- 
-Open your  /etc/dphys-swapfile  and then edit the  CONF_SWAPSIZE  variable:          CONF_SWAPSIZE=100 
+    Don’t forget to change your swap size back! 
+
+    Open your  /etc/dphys-swapfile  and then edit the  CONF_SWAPSIZE  variable:          CONF_SWAPSIZE=100 
