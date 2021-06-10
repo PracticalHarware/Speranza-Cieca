@@ -11,7 +11,7 @@ from gtts import gTTS
 
 import VolumeControlModule as VCM;
 import PeopleRecognitionModule as PRM;
-import VehicleTracking as VT;
+import VehicleTrackingModule as VT;
 import ReadTextFromCamera as OCR;
 
 def speak(audio_string):
